@@ -1,0 +1,33 @@
+{
+  "name": "jwhite-marketplace",
+  "owner": {
+    "name": "Jonathan White",
+    "email": "jonathan.white@example.com"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "jwhite-claude-plugin",
+      "source": {
+        "source": "github",
+        "repo": "Jonathan-A-White/jwhite-claude-plugin"
+      },
+      "description": "Socratic issue creation and HumanLayer thoughts integration",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jonathan White"
+      },
+      "license": "MIT",
+      "repository": "https://github.com/Jonathan-A-White/jwhite-claude-plugin",
+      "keywords": [
+        "issue-creation",
+        "socratic-method",
+        "humanlayer",
+        "thoughts"
+      ]
+    }
+  ]
+}
