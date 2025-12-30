@@ -11,10 +11,7 @@
   "plugins": [
     {
       "name": "jwhite-claude-plugin",
-      "source": {
-        "source": "local",
-        "path": "plugins/jwhite-claude-plugin"
-      },
+      "source": "./plugins/jwhite-claude-plugin",
       "description": "Socratic issue creation and HumanLayer thoughts integration",
       "version": "1.0.0",
       "author": {
