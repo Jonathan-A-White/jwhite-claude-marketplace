@@ -1,7 +1,7 @@
 {
   "name": "jwhite-claude-plugin",
-  "version": "1.0.0",
-  "description": "Personal Claude Code development tools. Socratic issue creation and HumanLayer thoughts integration.",
+  "version": "2.0.0",
+  "description": "Complete planning workflow for Claude Code. Includes codebase research, implementation planning, execution, and validation commands with specialized analysis agents.",
   "author": {
     "name": "Jonathan White",
     "url": "https://github.com/Jonathan-A-White"
@@ -12,6 +12,10 @@
     "socratic-method",
     "humanlayer",
     "thoughts",
-    "workflow"
+    "workflow",
+    "planning",
+    "research",
+    "codebase-analysis",
+    "implementation"
   ]
 }
