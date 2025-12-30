@@ -6,7 +6,7 @@ Personal Claude Code plugin marketplace.
 
 | Plugin | Description |
 |--------|-------------|
-| [jwhite-claude-plugin](https://github.com/Jonathan-A-White/jwhite-claude-plugin) | Socratic issue creation and HumanLayer thoughts integration |
+| [jwhite-claude-plugin](plugins/jwhite-claude-plugin) | Socratic issue creation and HumanLayer thoughts integration |
 
 ## Installation
 
