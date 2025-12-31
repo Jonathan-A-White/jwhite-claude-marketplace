@@ -1,3 +1,7 @@
+---
+description: Guide for setting up HumanLayer thoughts using npm/Node.js for collaborative knowledge sharing
+---
+
 # HumanLayer Thoughts Setup
 
 This skill guides Claude through setting up HumanLayer thoughts for collaborative knowledge sharing and issue tracking.

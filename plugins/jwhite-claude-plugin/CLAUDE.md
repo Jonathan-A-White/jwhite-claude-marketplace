@@ -66,6 +66,16 @@ Key behaviors:
 - Generates comprehensive validation report
 - Lists remaining manual testing required
 
+### /humanlayer_thoughts_setup
+
+Guides users through HumanLayer setup using npm (not Python):
+
+```bash
+npm install -g hlyr
+export HUMANLAYER_API_KEY=your_key
+humanlayer thoughts sync
+```
+
 ## Agents
 
 The plugin includes 6 specialized agents for research tasks:
@@ -87,18 +97,6 @@ Extracts high-value insights from thoughts documents.
 
 ### web-search-researcher
 Researches external documentation and resources when explicitly requested.
-
-## Skills
-
-### humanlayer-thoughts-setup
-
-Guides users through HumanLayer setup using npm (not Python):
-
-```bash
-npm install -g hlyr
-export HUMANLAYER_API_KEY=your_key
-humanlayer thoughts sync
-```
 
 ## Scripts
 

@@ -16,6 +16,8 @@ Complete planning workflow for Claude Code with Socratic issue creation, codebas
 
 - **`/validate_plan`** - Validate that an implementation plan was correctly executed. Runs all automated checks and produces validation reports.
 
+- **`/humanlayer_thoughts_setup`** - Guide for setting up HumanLayer thoughts using npm/Node.js for collaborative knowledge sharing.
+
 ### Agents
 
 - **`codebase-locator`** - Find files and components by topic/feature
@@ -24,10 +26,6 @@ Complete planning workflow for Claude Code with Socratic issue creation, codebas
 - **`thoughts-locator`** - Discover documents in thoughts/ directory
 - **`thoughts-analyzer`** - Extract insights from thoughts documents
 - **`web-search-researcher`** - Research external documentation and resources
-
-### Skills
-
-- **`humanlayer-thoughts-setup`** - Guide for setting up HumanLayer thoughts using npm/Node.js for collaborative knowledge sharing.
 
 ## Installation
 
@@ -90,7 +88,11 @@ The command spawns parallel agents to research and produces a comprehensive docu
 
 ### Set Up HumanLayer Thoughts
 
-Invoke the `humanlayer-thoughts-setup` skill to get guided installation instructions for HumanLayer using npm.
+```
+/humanlayer_thoughts_setup
+```
+
+This command provides guided installation instructions for HumanLayer using npm.
 
 ## Directory Structure
 
@@ -108,14 +110,12 @@ jwhite-claude-plugin/
 ├── commands/
 │   ├── create-issue.md
 │   ├── create_plan.md
+│   ├── humanlayer_thoughts_setup.md
 │   ├── implement_plan.md
 │   ├── research_codebase.md
 │   └── validate_plan.md
 ├── scripts/
 │   └── spec_metadata.sh      # Metadata collection script
-├── skills/
-│   └── humanlayer-thoughts-setup/
-│       └── SKILL.md
 ├── CLAUDE.md
 ├── LICENSE
 └── README.md
